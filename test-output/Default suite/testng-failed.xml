@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="demo_TestCases_on_ASI.Validate_motorLocation">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Validate_Door_openening_width" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- demo_TestCases_on_ASI.Validate_motorLocation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
