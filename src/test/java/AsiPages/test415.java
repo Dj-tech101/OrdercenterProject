@@ -480,7 +480,7 @@ public class test415 {
 	}
 ////VALIDATION MESSAGE FOR INVALID OPTION
 
-	@FindBy(xpath = "//p[contains(text(),'Please select MOTOR LOCATION')]")
+	@FindBy(xpath = "//p[contains(text(),'196666')]")
 	WebElement ErrorMessagecurtainFabricColore;
 
 	public String getErrorMessagecurtainFabricColore() {
